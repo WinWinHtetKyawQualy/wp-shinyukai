@@ -25,7 +25,7 @@ get_header();
                 <a class="goto" href="#item01-sec">
                     <div class="goto-left-side">
                         <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/nyuuin//item01.png" alt="入院の準備・手続き" /></div>
-                        <p class="goto-description">入院の準備・手続き</p>
+                        <p class="goto-description">個人情報保護方針</p>
                     </div>
                 </a>
             </li>
