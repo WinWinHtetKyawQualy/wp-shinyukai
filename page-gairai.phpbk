@@ -1,0 +1,2217 @@
+<?php
+/*
+template name:gairai
+ */
+
+get_header();
+?>
+
+<section class="sub-mv-section sub-bg">
+    <div class="container">
+        <div class="pc">
+            <?php echo the_breadcrumb(); ?>
+        </div>
+        <div class="sub-mv">
+            <h2 class="sub-mv-ttl">外来のご案内</h2>
+            <span class="sub-mv-txt">Outpatient care Information</span>
+        </div>
+    </div>
+</section>
+<section class="page-anchor mt80 mt45-sp mb90 mb35-sp">
+    <!-- TODO section with many buttons will go here -->
+    <div class="container m-w800">
+        <ul class="anchor-list">
+            <li>
+                <a class="goto" href="#gairai-sec01">
+                    <div class="goto-left-side">
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/item01.png" alt="診療科目" /></div>
+                        <p class="goto-description">診療科目</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="goto" href="#gairai-sec02">
+                    <div class="goto-left-side">
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/item02.png" alt="診療時間" /></div>
+                        <p class="goto-description">診療時間</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="goto" href="#gairai-sec03">
+                    <div class="goto-left-side">
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/item03.png" alt="外来担当医表" /></div>
+                        <p class="goto-description">外来担当医表</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="goto" href="#gairai-sec04">
+                    <div class="goto-left-side">
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/item04.png" alt="外来担当医ご紹介" /></div>
+                        <p class="goto-description">外来担当医ご紹介</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="goto" href="#gairai-sec05">
+                    <div class="goto-left-side">
+                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/item05.png" alt="外来について" /></div>
+                        <p class="goto-description">外来について</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+        </ul>
+    </div>
+</section>
+<section class="gairai-info-section bg-gray" id="gairai-sec01">
+    <div class="container">
+        <div class="information">
+            <h2 class="h2-ttl h2-mb">診療科目</h2>
+            <div class="info-block">
+                <ul>
+                    <li>
+                        <a href="#gairai01">
+                            <div class="info-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img1.png" alt="内科" />
+                            </div>
+                            <p class="in-sty">内科</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gairai02">
+                            <div class="info-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img2.png" alt="消化器内科" />
+                            </div>
+                            <p class="in-sty">消化器内科</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gairai05">
+                            <div class="info-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img5.png" alt="リハビリ テーション科" />
+                            </div>
+                            <p class="in-sty">リハビリ</p>
+                            <br />
+                            <p class="in-sty">テーション科</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gairai03">
+                            <div class="info-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img3.png" alt="血液内科" />
+                            </div>
+                            <p class="in-sty">血液内科</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#gairai04">
+                            <div class="info-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/info-img6.png" alt="感染症内科" />
+                            </div>
+                            <p class="in-sty">感染症内科</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="consult-time-section" id="gairai-sec02">
+    <div class="container">
+        <hr class="consult-hr-sp sp" />
+        <div class="m-w800 margin-sp">
+            <div class="consult-time">
+                <h2 class="h2-ttl h2-mb" id="consult-time-section">診療時間</h2>
+                <div class="consult-time-table">
+                    <table class="gairai-consult-table">
+                        <thead>
+                            <tr>
+                                <td class="text-left pl0 pr0">診療時間</td>
+                                <td>月</td>
+                                <td>火</td>
+                                <td>水</td>
+                                <td>木</td>
+                                <td>金</td>
+                                <td>土</td>
+                                <td><span class="pc">日</span><span class="sp">日祝</span></td>
+                                <td class="pl0 pr0 pc">祝祭日</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-left pl0 pr0">9:00-12:00</td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <!-- <td class="pd1"><span class="icon-triangle"></span></td> -->
+                                <td class="pl0 pr0">-</td>
+                                <td class="pl0 pr0">-</td>
+                                <td class="pl0 pr0 pc">-</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left pl0 pr0">13:30-17:00</td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td><i class="circle m-auto"></i></td>
+                                <td class="pl0 pr0">-</td>
+                                <td class="pl0 pr0">-</td>
+                                <td class="pl0 pr0 pc">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="consult-time-txt">
+                        <p class="common-txt-po"><span>※</span>土曜日、日曜日、祝日、1月1日、1月2日、1月3日、7月21日、8月15日、12月30日、12月31日は休診日となっております。最新の情報につきましては、お知らせページをご確認ください。</p>
+                    </div>
+                </div>
+                <div class="gairai-com-btn">
+                    <a href="<?php echo home_url() . '/news'; ?>" class="gairai-btn-dec">お知らせページを開く</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="doctor-table bg-gray" id="gairai-sec03">
+    <div class="container">
+        <div class="m-w800">
+            <h2 class="h2-ttl h2-mb">外来担当医表</h2>
+            <p class="doctor-table-txt mb50">
+                担当医表が変更になっている場合もありますので、担当医のご指定がある際には <br />
+                事前に <span class="font-blue">外来直通 0166-23-2090（電話受付時間 9:00～12:00, 13:30～17:00）</span>までご確認してください。
+            </p>
+
+            <div id="open-btn" class="gairai-btn-dec list-open-btn">外来担当医表を開く</div>
+
+            <div class="modal-container">
+                <ul class="doctor-list modal">
+                    <li class="doctor-list-li" id="gairai01">
+                        <div class="table-ttl">
+                            <p class="table-ttl-p table-ttl-p-1">内科</p>
+                        </div>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th rowspan="6" class="single-th">午前</th>
+                                <td class="table-td">
+                                    <?php $naika_am_mon1 = scf::get('naika_am_mon1');
+                                    if (!empty($naika_am_mon1)) { ?>
+                                        <?php echo $naika_am_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_tue1 = scf::get('naika_am_tue1');
+                                    if (!empty($naika_am_tue1)) { ?>
+                                        <?php echo $naika_am_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_wed1 = scf::get('naika_am_wed1');
+                                    if (!empty($naika_am_wed1)) { ?>
+                                        <?php echo $naika_am_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_thu1 = scf::get('naika_am_thu1');
+                                    if (!empty($naika_am_thu1)) { ?>
+                                        <?php echo $naika_am_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_fri1 = scf::get('naika_am_fri1');
+                                    if (!empty($naika_am_fri1)) { ?>
+                                        <?php echo $naika_am_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_sat1 = scf::get('naika_am_sat1');
+                                    if (!empty($naika_am_sat1)) { ?>
+                                        <?php echo $naika_am_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_am_mon2 = scf::get('naika_am_mon2');
+                                    if (!empty($naika_am_mon2)) { ?>
+                                        <?php echo $naika_am_mon2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_tue2 = scf::get('naika_am_tue2');
+                                    if (!empty($naika_am_tue2)) { ?>
+                                        <?php echo $naika_am_tue2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_wed2 = scf::get('naika_am_wed2');
+                                    if (!empty($naika_am_wed2)) { ?>
+                                        <?php echo $naika_am_wed2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_thu2 = scf::get('naika_am_thu2');
+                                    if (!empty($naika_am_thu2)) { ?>
+                                        <?php echo $naika_am_thu2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_fri2 = scf::get('naika_am_fri2');
+                                    if (!empty($naika_am_fri2)) { ?>
+                                        <?php echo $naika_am_fri2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_sat2 = scf::get('naika_am_sat2');
+                                    if (!empty($naika_am_sat2)) { ?>
+                                        <?php echo $naika_am_sat2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_am_mon3 = scf::get('naika_am_mon3');
+                                    if (!empty($naika_am_mon3)) { ?>
+                                        <?php echo $naika_am_mon3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_tue3 = scf::get('naika_am_tue3');
+                                    if (!empty($naika_am_tue3)) { ?>
+                                        <?php echo $naika_am_tue3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_wed3 = scf::get('naika_am_wed3');
+                                    if (!empty($naika_am_wed3)) { ?>
+                                        <?php echo $naika_am_wed3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_thu3 = scf::get('naika_am_thu3');
+                                    if (!empty($naika_am_thu3)) { ?>
+                                        <?php echo $naika_am_thu3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_fri3 = scf::get('naika_am_fri3');
+                                    if (!empty($naika_am_fri3)) { ?>
+                                        <?php echo $naika_am_fri3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_sat3 = scf::get('naika_am_sat3');
+                                    if (!empty($naika_am_sat3)) { ?>
+                                        <?php echo $naika_am_sat3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_am_mon4 = scf::get('naika_am_mon4');
+                                    if (!empty($naika_am_mon4)) { ?>
+                                        <?php echo $naika_am_mon4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_tue4 = scf::get('naika_am_tue4');
+                                    if (!empty($naika_am_tue4)) { ?>
+                                        <?php echo $naika_am_tue4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_wed4 = scf::get('naika_am_wed4');
+                                    if (!empty($naika_am_wed4)) { ?>
+                                        <?php echo $naika_am_wed4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_thu4 = scf::get('naika_am_thu4');
+                                    if (!empty($naika_am_thu4)) { ?>
+                                        <?php echo $naika_am_thu4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_fri4 = scf::get('naika_am_fri4');
+                                    if (!empty($naika_am_fri4)) { ?>
+                                        <?php echo $naika_am_fri4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_sat4 = scf::get('naika_am_sat4');
+                                    if (!empty($naika_am_sat4)) { ?>
+                                        <?php echo $naika_am_sat4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_am_mon5 = scf::get('naika_am_mon5');
+                                    if (!empty($naika_am_mon5)) { ?>
+                                        <?php echo $naika_am_mon5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_tue5 = scf::get('naika_am_tue5');
+                                    if (!empty($naika_am_tue5)) { ?>
+                                        <?php echo $naika_am_tue5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_wed5 = scf::get('naika_am_wed5');
+                                    if (!empty($naika_am_wed5)) { ?>
+                                        <?php echo $naika_am_wed5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_thu5 = scf::get('naika_am_thu5');
+                                    if (!empty($naika_am_thu5)) { ?>
+                                        <?php echo $naika_am_thu5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_fri5 = scf::get('naika_am_fri5');
+                                    if (!empty($naika_am_fri5)) { ?>
+                                        <?php echo $naika_am_fri5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_am_sat5 = scf::get('naika_am_sat5');
+                                    if (!empty($naika_am_sat5)) { ?>
+                                        <?php echo $naika_am_sat5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th rowspan="6" class="single-th">午後</th>
+                                <td class="table-td">
+                                    <?php $naika_pm_mon1 = scf::get('naika_pm_mon1');
+                                    if (!empty($naika_pm_mon1)) { ?>
+                                        <?php echo $naika_pm_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_tue1 = scf::get('naika_pm_tue1');
+                                    if (!empty($naika_pm_tue1)) { ?>
+                                        <?php echo $naika_pm_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_wed1 = scf::get('naika_pm_wed1');
+                                    if (!empty($naika_pm_wed1)) { ?>
+                                        <?php echo $naika_pm_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_thu1 = scf::get('naika_pm_thu1');
+                                    if (!empty($naika_pm_thu1)) { ?>
+                                        <?php echo $naika_pm_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_fri1 = scf::get('naika_pm_fri1');
+                                    if (!empty($naika_pm_fri1)) { ?>
+                                        <?php echo $naika_pm_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_sat1 = scf::get('naika_pm_sat1');
+                                    if (!empty($naika_pm_sat1)) { ?>
+                                        <?php echo $naika_pm_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_pm_mon2 = scf::get('naika_pm_mon2');
+                                    if (!empty($naika_pm_mon2)) { ?>
+                                        <?php echo $naika_pm_mon2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_tue2 = scf::get('naika_pm_tue2');
+                                    if (!empty($naika_pm_tue2)) { ?>
+                                        <?php echo $naika_pm_tue2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_wed2 = scf::get('naika_pm_wed2');
+                                    if (!empty($naika_pm_wed2)) { ?>
+                                        <?php echo $naika_pm_wed2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_thu2 = scf::get('naika_pm_thu2');
+                                    if (!empty($naika_pm_thu2)) { ?>
+                                        <?php echo $naika_pm_thu2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_fri2 = scf::get('naika_pm_fri2');
+                                    if (!empty($naika_pm_fri2)) { ?>
+                                        <?php echo $naika_pm_fri2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_sat2 = scf::get('naika_pm_sat2');
+                                    if (!empty($naika_pm_sat2)) { ?>
+                                        <?php echo $naika_pm_sat2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_pm_mon3 = scf::get('naika_pm_mon3');
+                                    if (!empty($naika_pm_mon3)) { ?>
+                                        <?php echo $naika_pm_mon3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_tue3 = scf::get('naika_pm_tue3');
+                                    if (!empty($naika_pm_tue3)) { ?>
+                                        <?php echo $naika_pm_tue3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_wed3 = scf::get('naika_pm_wed3');
+                                    if (!empty($naika_pm_wed3)) { ?>
+                                        <?php echo $naika_pm_wed3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_thu3 = scf::get('naika_pm_thu3');
+                                    if (!empty($naika_pm_thu3)) { ?>
+                                        <?php echo $naika_pm_thu3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_fri3 = scf::get('naika_pm_fri3');
+                                    if (!empty($naika_pm_fri3)) { ?>
+                                        <?php echo $naika_pm_fri3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_sat3 = scf::get('naika_pm_sat3');
+                                    if (!empty($naika_pm_sat3)) { ?>
+                                        <?php echo $naika_pm_sat3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_pm_mon4 = scf::get('naika_pm_mon4');
+                                    if (!empty($naika_pm_mon4)) { ?>
+                                        <?php echo $naika_pm_mon4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_tue4 = scf::get('naika_pm_tue4');
+                                    if (!empty($naika_pm_tue4)) { ?>
+                                        <?php echo $naika_pm_tue4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_wed4 = scf::get('naika_pm_wed4');
+                                    if (!empty($naika_pm_wed4)) { ?>
+                                        <?php echo $naika_pm_wed4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_thu4 = scf::get('naika_pm_thu4');
+                                    if (!empty($naika_pm_thu4)) { ?>
+                                        <?php echo $naika_pm_thu4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_fri4 = scf::get('naika_pm_fri4');
+                                    if (!empty($naika_pm_fri4)) { ?>
+                                        <?php echo $naika_pm_fri4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_sat4 = scf::get('naika_pm_sat4');
+                                    if (!empty($naika_pm_sat4)) { ?>
+                                        <?php echo $naika_pm_sat4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $naika_pm_mon5 = scf::get('naika_pm_mon5');
+                                    if (!empty($naika_pm_mon5)) { ?>
+                                        <?php echo $naika_pm_mon5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_tue5 = scf::get('naika_pm_tue5');
+                                    if (!empty($naika_pm_tue5)) { ?>
+                                        <?php echo $naika_pm_tue5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_wed5 = scf::get('naika_pm_wed5');
+                                    if (!empty($naika_pm_wed5)) { ?>
+                                        <?php echo $naika_pm_wed5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_thu5 = scf::get('naika_pm_thu5');
+                                    if (!empty($naika_pm_thu5)) { ?>
+                                        <?php echo $naika_pm_thu5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_fri5 = scf::get('naika_pm_fri5');
+                                    if (!empty($naika_pm_fri5)) { ?>
+                                        <?php echo $naika_pm_fri5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $naika_pm_sat5 = scf::get('naika_pm_sat5');
+                                    if (!empty($naika_pm_sat5)) { ?>
+                                        <?php echo $naika_pm_sat5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="doctor-list-li" id="gairai02">
+                        <div class="table-ttl">
+                            <p class="table-ttl-p table-ttl-p-2">消化器内科</p>
+                        </div>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th rowspan="6" class="single-th">午前</th>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_mon1 = scf::get('shoukaki_am_mon1');
+                                    if (!empty($shoukaki_am_mon1)) { ?>
+                                        <?php echo $shoukaki_am_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_tue1 = scf::get('shoukaki_am_tue1');
+                                    if (!empty($shoukaki_am_tue1)) { ?>
+                                        <?php echo $shoukaki_am_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_wed1 = scf::get('shoukaki_am_wed1');
+                                    if (!empty($shoukaki_am_wed1)) { ?>
+                                        <?php echo $shoukaki_am_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_thu1 = scf::get('shoukaki_am_thu1');
+                                    if (!empty($shoukaki_am_thu1)) { ?>
+                                        <?php echo $shoukaki_am_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_fri1 = scf::get('shoukaki_am_fri1');
+                                    if (!empty($shoukaki_am_fri1)) { ?>
+                                        <?php echo $shoukaki_am_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_sat1 = scf::get('shoukaki_am_sat1');
+                                    if (!empty($shoukaki_am_sat1)) { ?>
+                                        <?php echo $shoukaki_am_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_am_mon2 = scf::get('shoukaki_am_mon2');
+                                    if (!empty($shoukaki_am_mon2)) { ?>
+                                        <?php echo $shoukaki_am_mon2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_tue2 = scf::get('shoukaki_am_tue2');
+                                    if (!empty($shoukaki_am_tue2)) { ?>
+                                        <?php echo $shoukaki_am_tue2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_wed2 = scf::get('shoukaki_am_wed2');
+                                    if (!empty($shoukaki_am_wed2)) { ?>
+                                        <?php echo $shoukaki_am_wed2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_thu2 = scf::get('shoukaki_am_thu2');
+                                    if (!empty($shoukaki_am_thu2)) { ?>
+                                        <?php echo $shoukaki_am_thu2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_fri2 = scf::get('shoukaki_am_fri2');
+                                    if (!empty($shoukaki_am_fri2)) { ?>
+                                        <?php echo $shoukaki_am_fri2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_sat2 = scf::get('shoukaki_am_sat2');
+                                    if (!empty($shoukaki_am_sat2)) { ?>
+                                        <?php echo $shoukaki_am_sat2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_am_mon3 = scf::get('shoukaki_am_mon3');
+                                    if (!empty($shoukaki_am_mon3)) { ?>
+                                        <?php echo $shoukaki_am_mon3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_tue3 = scf::get('shoukaki_am_tue3');
+                                    if (!empty($shoukaki_am_tue3)) { ?>
+                                        <?php echo $shoukaki_am_tue3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_wed3 = scf::get('shoukaki_am_wed3');
+                                    if (!empty($shoukaki_am_wed3)) { ?>
+                                        <?php echo $shoukaki_am_wed3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_thu3 = scf::get('shoukaki_am_thu3');
+                                    if (!empty($shoukaki_am_thu3)) { ?>
+                                        <?php echo $shoukaki_am_thu3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_fri3 = scf::get('shoukaki_am_fri3');
+                                    if (!empty($shoukaki_am_fri3)) { ?>
+                                        <?php echo $shoukaki_am_fri3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_sat3 = scf::get('shoukaki_am_sat3');
+                                    if (!empty($shoukaki_am_sat3)) { ?>
+                                        <?php echo $shoukaki_am_sat3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_am_mon4 = scf::get('shoukaki_am_mon4');
+                                    if (!empty($shoukaki_am_mon4)) { ?>
+                                        <?php echo $shoukaki_am_mon4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_tue4 = scf::get('shoukaki_am_tue4');
+                                    if (!empty($shoukaki_am_tue4)) { ?>
+                                        <?php echo $shoukaki_am_tue4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_wed4 = scf::get('shoukaki_am_wed4');
+                                    if (!empty($shoukaki_am_wed4)) { ?>
+                                        <?php echo $shoukaki_am_wed4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_thu4 = scf::get('shoukaki_am_thu4');
+                                    if (!empty($shoukaki_am_thu4)) { ?>
+                                        <?php echo $shoukaki_am_thu4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_fri4 = scf::get('shoukaki_am_fri4');
+                                    if (!empty($shoukaki_am_fri4)) { ?>
+                                        <?php echo $shoukaki_am_fri4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_sat4 = scf::get('shoukaki_am_sat4');
+                                    if (!empty($shoukaki_am_sat4)) { ?>
+                                        <?php echo $shoukaki_am_sat4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_am_mon5 = scf::get('shoukaki_am_mon5');
+                                    if (!empty($shoukaki_am_mon5)) { ?>
+                                        <?php echo $shoukaki_am_mon5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_tue5 = scf::get('shoukaki_am_tue5');
+                                    if (!empty($shoukaki_am_tue5)) { ?>
+                                        <?php echo $shoukaki_am_tue5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_wed5 = scf::get('shoukaki_am_wed5');
+                                    if (!empty($shoukaki_am_wed5)) { ?>
+                                        <?php echo $shoukaki_am_wed5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_thu5 = scf::get('shoukaki_am_thu5');
+                                    if (!empty($shoukaki_am_thu5)) { ?>
+                                        <?php echo $shoukaki_am_thu5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_fri5 = scf::get('shoukaki_am_fri5');
+                                    if (!empty($shoukaki_am_fri5)) { ?>
+                                        <?php echo $shoukaki_am_fri5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_am_sat5 = scf::get('shoukaki_am_sat5');
+                                    if (!empty($shoukaki_am_sat5)) { ?>
+                                        <?php echo $shoukaki_am_sat5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th rowspan="6" class="single-th">午後</th>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_mon1 = scf::get('shoukaki_pm_mon1');
+                                    if (!empty($shoukaki_pm_mon1)) { ?>
+                                        <?php echo $shoukaki_pm_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_tue1 = scf::get('shoukaki_pm_tue1');
+                                    if (!empty($shoukaki_pm_tue1)) { ?>
+                                        <?php echo $shoukaki_pm_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_wed1 = scf::get('shoukaki_pm_wed1');
+                                    if (!empty($shoukaki_pm_wed1)) { ?>
+                                        <?php echo $shoukaki_pm_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_thu1 = scf::get('shoukaki_pm_thu1');
+                                    if (!empty($shoukaki_pm_thu1)) { ?>
+                                        <?php echo $shoukaki_pm_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_fri1 = scf::get('shoukaki_pm_fri1');
+                                    if (!empty($shoukaki_pm_fri1)) { ?>
+                                        <?php echo $shoukaki_pm_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_sat1 = scf::get('shoukaki_pm_sat1');
+                                    if (!empty($shoukaki_pm_sat1)) { ?>
+                                        <?php echo $shoukaki_pm_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_mon2 = scf::get('shoukaki_pm_mon2');
+                                    if (!empty($shoukaki_pm_mon2)) { ?>
+                                        <?php echo $shoukaki_pm_mon2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_tue2 = scf::get('shoukaki_pm_tue2');
+                                    if (!empty($shoukaki_pm_tue2)) { ?>
+                                        <?php echo $shoukaki_pm_tue2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_wed2 = scf::get('shoukaki_pm_wed2');
+                                    if (!empty($shoukaki_pm_wed2)) { ?>
+                                        <?php echo $shoukaki_pm_wed2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_thu2 = scf::get('shoukaki_pm_thu2');
+                                    if (!empty($shoukaki_pm_thu2)) { ?>
+                                        <?php echo $shoukaki_pm_thu2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_fri2 = scf::get('shoukaki_pm_fri2');
+                                    if (!empty($shoukaki_pm_fri2)) { ?>
+                                        <?php echo $shoukaki_pm_fri2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_sat2 = scf::get('shoukaki_pm_sat2');
+                                    if (!empty($shoukaki_pm_sat2)) { ?>
+                                        <?php echo $shoukaki_pm_sat2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_mon3 = scf::get('shoukaki_pm_mon3');
+                                    if (!empty($shoukaki_pm_mon3)) { ?>
+                                        <?php echo $shoukaki_pm_mon3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_tue3 = scf::get('shoukaki_pm_tue3');
+                                    if (!empty($shoukaki_pm_tue3)) { ?>
+                                        <?php echo $shoukaki_pm_tue3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_wed3 = scf::get('shoukaki_pm_wed3');
+                                    if (!empty($shoukaki_pm_wed3)) { ?>
+                                        <?php echo $shoukaki_pm_wed3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_thu3 = scf::get('shoukaki_pm_thu3');
+                                    if (!empty($shoukaki_pm_thu3)) { ?>
+                                        <?php echo $shoukaki_pm_thu3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_fri3 = scf::get('shoukaki_pm_fri3');
+                                    if (!empty($shoukaki_pm_fri3)) { ?>
+                                        <?php echo $shoukaki_pm_fri3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_sat3 = scf::get('shoukaki_pm_sat3');
+                                    if (!empty($shoukaki_pm_sat3)) { ?>
+                                        <?php echo $shoukaki_pm_sat3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_mon4 = scf::get('shoukaki_pm_mon4');
+                                    if (!empty($shoukaki_pm_mon4)) { ?>
+                                        <?php echo $shoukaki_pm_mon4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_tue4 = scf::get('shoukaki_pm_tue4');
+                                    if (!empty($shoukaki_pm_tue4)) { ?>
+                                        <?php echo $shoukaki_pm_tue4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_wed4 = scf::get('shoukaki_pm_wed4');
+                                    if (!empty($shoukaki_pm_wed4)) { ?>
+                                        <?php echo $shoukaki_pm_wed4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_thu4 = scf::get('shoukaki_pm_thu4');
+                                    if (!empty($shoukaki_pm_thu4)) { ?>
+                                        <?php echo $shoukaki_pm_thu4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_fri4 = scf::get('shoukaki_pm_fri4');
+                                    if (!empty($shoukaki_pm_fri4)) { ?>
+                                        <?php echo $shoukaki_pm_fri4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_sat4 = scf::get('shoukaki_pm_sat4');
+                                    if (!empty($shoukaki_pm_sat4)) { ?>
+                                        <?php echo $shoukaki_pm_sat4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_mon5 = scf::get('shoukaki_pm_mon5');
+                                    if (!empty($shoukaki_pm_mon5)) { ?>
+                                        <?php echo $shoukaki_pm_mon5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_tue5 = scf::get('shoukaki_pm_tue5');
+                                    if (!empty($shoukaki_pm_tue5)) { ?>
+                                        <?php echo $shoukaki_pm_tue5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_wed5 = scf::get('shoukaki_pm_wed5');
+                                    if (!empty($shoukaki_pm_wed5)) { ?>
+                                        <?php echo $shoukaki_pm_wed5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_thu5 = scf::get('shoukaki_pm_thu5');
+                                    if (!empty($shoukaki_pm_thu5)) { ?>
+                                        <?php echo $shoukaki_pm_thu5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_fri5 = scf::get('shoukaki_pm_fri5');
+                                    if (!empty($shoukaki_pm_fri5)) { ?>
+                                        <?php echo $shoukaki_pm_fri5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $shoukaki_pm_sat5 = scf::get('shoukaki_pm_sat5');
+                                    if (!empty($shoukaki_pm_sat5)) { ?>
+                                        <?php echo $shoukaki_pm_sat5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="doctor-list-li" id="gairai05">
+                        <div class="table-ttl">
+                            <p class="table-ttl-p table-ttl-p-5">リハビリテーション科</p>
+                        </div>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th rowspan="6" class="single-th">午前</th>
+                                <td class="table-td">
+                                    <?php $rehabili_am_mon1 = scf::get('rehabili_am_mon1');
+                                    if (!empty($rehabili_am_mon1)) { ?>
+                                        <?php echo $rehabili_am_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_tue1 = scf::get('rehabili_am_tue1');
+                                    if (!empty($rehabili_am_tue1)) { ?>
+                                        <?php echo $rehabili_am_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_wed1 = scf::get('rehabili_am_wed1');
+                                    if (!empty($rehabili_am_wed1)) { ?>
+                                        <?php echo $rehabili_am_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_thu1 = scf::get('rehabili_am_thu1');
+                                    if (!empty($rehabili_am_thu1)) { ?>
+                                        <?php echo $rehabili_am_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_fri1 = scf::get('rehabili_am_fri1');
+                                    if (!empty($rehabili_am_fri1)) { ?>
+                                        <?php echo $rehabili_am_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_sat1 = scf::get('rehabili_am_sat1');
+                                    if (!empty($rehabili_am_sat1)) { ?>
+                                        <?php echo $rehabili_am_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_am_mon2 = scf::get('rehabili_am_mon2');
+                                    if (!empty($rehabili_am_mon2)) { ?>
+                                        <?php echo $rehabili_am_mon2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_tue2 = scf::get('rehabili_am_tue2');
+                                    if (!empty($rehabili_am_tue2)) { ?>
+                                        <?php echo $rehabili_am_tue2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_wed2 = scf::get('rehabili_am_wed2');
+                                    if (!empty($rehabili_am_wed2)) { ?>
+                                        <?php echo $rehabili_am_wed2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_thu2 = scf::get('rehabili_am_thu2');
+                                    if (!empty($rehabili_am_thu2)) { ?>
+                                        <?php echo $rehabili_am_thu2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_fri2 = scf::get('rehabili_am_fri2');
+                                    if (!empty($rehabili_am_fri2)) { ?>
+                                        <?php echo $rehabili_am_fri2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_sat2 = scf::get('rehabili_am_sat2');
+                                    if (!empty($rehabili_am_sat2)) { ?>
+                                        <?php echo $rehabili_am_sat2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_am_mon3 = scf::get('rehabili_am_mon3');
+                                    if (!empty($rehabili_am_mon3)) { ?>
+                                        <?php echo $rehabili_am_mon3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_tue3 = scf::get('rehabili_am_tue3');
+                                    if (!empty($rehabili_am_tue3)) { ?>
+                                        <?php echo $rehabili_am_tue3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_wed3 = scf::get('rehabili_am_wed3');
+                                    if (!empty($rehabili_am_wed3)) { ?>
+                                        <?php echo $rehabili_am_wed3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_thu3 = scf::get('rehabili_am_thu3');
+                                    if (!empty($rehabili_am_thu3)) { ?>
+                                        <?php echo $rehabili_am_thu3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_fri3 = scf::get('rehabili_am_fri3');
+                                    if (!empty($rehabili_am_fri3)) { ?>
+                                        <?php echo $rehabili_am_fri3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_sat3 = scf::get('rehabili_am_sat3');
+                                    if (!empty($rehabili_am_sat3)) { ?>
+                                        <?php echo $rehabili_am_sat3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_am_mon4 = scf::get('rehabili_am_mon4');
+                                    if (!empty($rehabili_am_mon4)) { ?>
+                                        <?php echo $rehabili_am_mon4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_tue4 = scf::get('rehabili_am_tue4');
+                                    if (!empty($rehabili_am_tue4)) { ?>
+                                        <?php echo $rehabili_am_tue4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_wed4 = scf::get('rehabili_am_wed4');
+                                    if (!empty($rehabili_am_wed4)) { ?>
+                                        <?php echo $rehabili_am_wed4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_thu4 = scf::get('rehabili_am_thu4');
+                                    if (!empty($rehabili_am_thu4)) { ?>
+                                        <?php echo $rehabili_am_thu4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_fri4 = scf::get('rehabili_am_fri4');
+                                    if (!empty($rehabili_am_fri4)) { ?>
+                                        <?php echo $rehabili_am_fri4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_sat4 = scf::get('rehabili_am_sat4');
+                                    if (!empty($rehabili_am_sat4)) { ?>
+                                        <?php echo $rehabili_am_sat4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_am_mon5 = scf::get('rehabili_am_mon5');
+                                    if (!empty($rehabili_am_mon5)) { ?>
+                                        <?php echo $rehabili_am_mon5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_tue5 = scf::get('rehabili_am_tue5');
+                                    if (!empty($rehabili_am_tue5)) { ?>
+                                        <?php echo $rehabili_am_tue5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_wed5 = scf::get('rehabili_am_wed5');
+                                    if (!empty($rehabili_am_wed5)) { ?>
+                                        <?php echo $rehabili_am_wed5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_thu5 = scf::get('rehabili_am_thu5');
+                                    if (!empty($rehabili_am_thu5)) { ?>
+                                        <?php echo $rehabili_am_thu5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_fri5 = scf::get('rehabili_am_fri5');
+                                    if (!empty($rehabili_am_fri5)) { ?>
+                                        <?php echo $rehabili_am_fri5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_am_sat5 = scf::get('rehabili_am_sat5');
+                                    if (!empty($rehabili_am_sat5)) { ?>
+                                        <?php echo $rehabili_am_sat5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th rowspan="6" class="single-th">午後</th>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_mon1 = scf::get('rehabili_pm_mon1');
+                                    if (!empty($rehabili_pm_mon1)) { ?>
+                                        <?php echo $rehabili_pm_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_tue1 = scf::get('rehabili_pm_tue1');
+                                    if (!empty($rehabili_pm_tue1)) { ?>
+                                        <?php echo $rehabili_pm_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_wed1 = scf::get('rehabili_pm_wed1');
+                                    if (!empty($rehabili_pm_wed1)) { ?>
+                                        <?php echo $rehabili_pm_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_thu1 = scf::get('rehabili_pm_thu1');
+                                    if (!empty($rehabili_pm_thu1)) { ?>
+                                        <?php echo $rehabili_pm_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_fri1 = scf::get('rehabili_pm_fri1');
+                                    if (!empty($rehabili_pm_fri1)) { ?>
+                                        <?php echo $rehabili_pm_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_sat1 = scf::get('rehabili_pm_sat1');
+                                    if (!empty($rehabili_pm_sat1)) { ?>
+                                        <?php echo $rehabili_pm_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_pm_mon2 = scf::get('rehabili_pm_mon2');
+                                    if (!empty($rehabili_pm_mon2)) { ?>
+                                        <?php echo $rehabili_pm_mon2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_tue2 = scf::get('rehabili_pm_tue2');
+                                    if (!empty($rehabili_pm_tue2)) { ?>
+                                        <?php echo $rehabili_pm_tue2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_wed2 = scf::get('rehabili_pm_wed2');
+                                    if (!empty($rehabili_pm_wed2)) { ?>
+                                        <?php echo $rehabili_pm_wed2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_thu2 = scf::get('rehabili_pm_thu2');
+                                    if (!empty($rehabili_pm_thu2)) { ?>
+                                        <?php echo $rehabili_pm_thu2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_fri2 = scf::get('rehabili_pm_fri2');
+                                    if (!empty($rehabili_pm_fri2)) { ?>
+                                        <?php echo $rehabili_pm_fri2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_sat2 = scf::get('rehabili_pm_sat2');
+                                    if (!empty($rehabili_pm_sat2)) { ?>
+                                        <?php echo $rehabili_pm_sat2; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_pm_mon3 = scf::get('rehabili_pm_mon3');
+                                    if (!empty($rehabili_pm_mon3)) { ?>
+                                        <?php echo $rehabili_pm_mon3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_tue3 = scf::get('rehabili_pm_tue3');
+                                    if (!empty($rehabili_pm_tue3)) { ?>
+                                        <?php echo $rehabili_pm_tue3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_wed3 = scf::get('rehabili_pm_wed3');
+                                    if (!empty($rehabili_pm_wed3)) { ?>
+                                        <?php echo $rehabili_pm_wed3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_thu3 = scf::get('rehabili_pm_thu3');
+                                    if (!empty($rehabili_pm_thu3)) { ?>
+                                        <?php echo $rehabili_pm_thu3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_fri3 = scf::get('rehabili_pm_fri3');
+                                    if (!empty($rehabili_pm_fri3)) { ?>
+                                        <?php echo $rehabili_pm_fri3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_sat3 = scf::get('rehabili_pm_sat3');
+                                    if (!empty($rehabili_pm_sat3)) { ?>
+                                        <?php echo $rehabili_pm_sat3; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_pm_mon4 = scf::get('rehabili_pm_mon4');
+                                    if (!empty($rehabili_pm_mon4)) { ?>
+                                        <?php echo $rehabili_pm_mon4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_tue4 = scf::get('rehabili_pm_tue4');
+                                    if (!empty($rehabili_pm_tue4)) { ?>
+                                        <?php echo $rehabili_pm_tue4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_wed4 = scf::get('rehabili_pm_wed4');
+                                    if (!empty($rehabili_pm_wed4)) { ?>
+                                        <?php echo $rehabili_pm_wed4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_thu4 = scf::get('rehabili_pm_thu4');
+                                    if (!empty($rehabili_pm_thu4)) { ?>
+                                        <?php echo $rehabili_pm_thu4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_fri4 = scf::get('rehabili_pm_fri4');
+                                    if (!empty($rehabili_pm_fri4)) { ?>
+                                        <?php echo $rehabili_pm_fri4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_sat4 = scf::get('rehabili_pm_sat4');
+                                    if (!empty($rehabili_pm_sat4)) { ?>
+                                        <?php echo $rehabili_pm_sat4; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <td class="table-td">
+                                    <?php $rehabili_pm_mon5 = scf::get('rehabili_pm_mon5');
+                                    if (!empty($rehabili_pm_mon5)) { ?>
+                                        <?php echo $rehabili_pm_mon5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_tue5 = scf::get('rehabili_pm_tue5');
+                                    if (!empty($rehabili_pm_tue5)) { ?>
+                                        <?php echo $rehabili_pm_tue5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_wed5 = scf::get('rehabili_pm_wed5');
+                                    if (!empty($rehabili_pm_wed5)) { ?>
+                                        <?php echo $rehabili_pm_wed5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_thu5 = scf::get('rehabili_pm_thu5');
+                                    if (!empty($rehabili_pm_thu5)) { ?>
+                                        <?php echo $rehabili_pm_thu5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_fri5 = scf::get('rehabili_pm_fri5');
+                                    if (!empty($rehabili_pm_fri5)) { ?>
+                                        <?php echo $rehabili_pm_fri5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $rehabili_pm_sat5 = scf::get('rehabili_pm_sat5');
+                                    if (!empty($rehabili_pm_sat5)) { ?>
+                                        <?php echo $rehabili_pm_sat5; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="doctor-list-li" id="gairai03">
+                        <div class="table-ttl">
+                            <p class="table-ttl-p table-ttl-p-3">血液内科</p>
+                        </div>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th class="single-th">午前</th>
+                                <td class="table-td">
+                                    <?php $ketsueki_am_mon1 = scf::get('ketsueki_am_mon1');
+                                    if (!empty($ketsueki_am_mon1)) { ?>
+                                        <?php echo $ketsueki_am_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_am_tue1 = scf::get('ketsueki_am_tue1');
+                                    if (!empty($ketsueki_am_tue1)) { ?>
+                                        <?php echo $ketsueki_am_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_am_wed1 = scf::get('ketsueki_am_wed1');
+                                    if (!empty($ketsueki_am_wed1)) { ?>
+                                        <?php echo $ketsueki_am_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_am_thu1 = scf::get('ketsueki_am_thu1');
+                                    if (!empty($ketsueki_am_thu1)) { ?>
+                                        <?php echo $ketsueki_am_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_am_fri1 = scf::get('ketsueki_am_fri1');
+                                    if (!empty($ketsueki_am_fri1)) { ?>
+                                        <?php echo $ketsueki_am_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_am_sat1 = scf::get('ketsueki_am_sat1');
+                                    if (!empty($ketsueki_am_sat1)) { ?>
+                                        <?php echo $ketsueki_am_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <th class="single-th">午後</th>
+                                <td class="table-td">
+                                    <?php $ketsueki_pm_mon1 = scf::get('ketsueki_pm_mon1');
+                                    if (!empty($ketsueki_pm_mon1)) { ?>
+                                        <?php echo $ketsueki_pm_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_pm_tue1 = scf::get('ketsueki_pm_tue1');
+                                    if (!empty($ketsueki_pm_tue1)) { ?>
+                                        <?php echo $ketsueki_pm_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_pm_wed1 = scf::get('ketsueki_pm_wed1');
+                                    if (!empty($ketsueki_pm_wed1)) { ?>
+                                        <?php echo $ketsueki_pm_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_pm_thu1 = scf::get('ketsueki_pm_thu1');
+                                    if (!empty($ketsueki_pm_thu1)) { ?>
+                                        <?php echo $ketsueki_pm_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_pm_fri1 = scf::get('ketsueki_pm_fri1');
+                                    if (!empty($ketsueki_pm_fri1)) { ?>
+                                        <?php echo $ketsueki_pm_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $ketsueki_pm_sat1 = scf::get('ketsueki_pm_sat1');
+                                    if (!empty($ketsueki_pm_sat1)) { ?>
+                                        <?php echo $ketsueki_pm_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="doctor-list-li" id="gairai04">
+                        <div class="table-ttl">
+                            <p class="table-ttl-p table-ttl-p-4">感染症内科</p>
+                        </div>
+                        <table class="table-dec">
+                            <tr class="table-tr">
+                                <th class="table-th"></th>
+                                <th class="table-th">月</th>
+                                <th class="table-th">火</th>
+                                <th class="table-th">水</th>
+                                <th class="table-th">木</th>
+                                <th class="table-th">金</th>
+                                <th class="table-th">土</th>
+                            </tr>
+                            <tr class="table-tr">
+                                <th class="single-th">午前</th>
+                                <td class="table-td">
+                                    <?php $kansenshou_am_mon1 = scf::get('kansenshou_am_mon1');
+                                    if (!empty($kansenshou_am_mon1)) { ?>
+                                        <?php echo $kansenshou_am_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_am_tue1 = scf::get('kansenshou_am_tue1');
+                                    if (!empty($kansenshou_am_tue1)) { ?>
+                                        <?php echo $kansenshou_am_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_am_wed1 = scf::get('kansenshou_am_wed1');
+                                    if (!empty($kansenshou_am_wed1)) { ?>
+                                        <?php echo $kansenshou_am_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_am_thu1 = scf::get('kansenshou_am_thu1');
+                                    if (!empty($kansenshou_am_thu1)) { ?>
+                                        <?php echo $kansenshou_am_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_am_fri1 = scf::get('kansenshou_am_fri1');
+                                    if (!empty($kansenshou_am_fri1)) { ?>
+                                        <?php echo $kansenshou_am_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_am_sat1 = scf::get('kansenshou_am_sat1');
+                                    if (!empty($kansenshou_am_sat1)) { ?>
+                                        <?php echo $kansenshou_am_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                            <tr class="table-tr">
+                                <th class="single-th">午後</th>
+                                <td class="table-td">
+                                    <?php $kansenshou_pm_mon1 = scf::get('kansenshou_pm_mon1');
+                                    if (!empty($kansenshou_pm_mon1)) { ?>
+                                        <?php echo $kansenshou_pm_mon1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_pm_tue1 = scf::get('kansenshou_pm_tue1');
+                                    if (!empty($kansenshou_pm_tue1)) { ?>
+                                        <?php echo $kansenshou_pm_tue1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_pm_wed1 = scf::get('kansenshou_pm_wed1');
+                                    if (!empty($kansenshou_pm_wed1)) { ?>
+                                        <?php echo $kansenshou_pm_wed1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_pm_thu1 = scf::get('kansenshou_pm_thu1');
+                                    if (!empty($kansenshou_pm_thu1)) { ?>
+                                        <?php echo $kansenshou_pm_thu1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_pm_fri1 = scf::get('kansenshou_pm_fri1');
+                                    if (!empty($kansenshou_pm_fri1)) { ?>
+                                        <?php echo $kansenshou_pm_fri1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                                <td class="table-td">
+                                    <?php $kansenshou_pm_sat1 = scf::get('kansenshou_pm_sat1');
+                                    if (!empty($kansenshou_pm_sat1)) { ?>
+                                        <?php echo $kansenshou_pm_sat1; ?>
+                                    <?php } else {
+                                        echo "-";
+                                    } ?>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <div class="btn-container">
+                    <div id="close-btn" class="gairai-btn-dec list-close-btn">閉じる</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="intro-outdor-doctor" id="gairai-sec04">
+    <div class="container">
+        <div class="m-w800">
+            <h2 class="h2-ttl h2-mb">外来担当医のご紹介</h2>
+            <ul class="intro-dr-block">
+                <li class="intro-dtr-block-li">
+                    <ul class="outer-flex">
+                        <li class="outer-flex-li-01">
+                            <div class="outer-flex-li-sty">
+                                <p class="outer-txt01">院長</p>
+                                <p class="outer-ttl01">沼﨑　彰</p>
+                                <div class="outer-para01">
+                                    <p class="fz-b">専門分野</p>
+                                    <p>専門分野</p>
+                                </div>
+                                <div class="outer-para02">
+                                    <p class="fz-b">資格・略歴</p>
+                                    <div class="outer-para02-bl">
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="outer-flex-li-01">
+                            <div class="outer-flex-li-sty">
+                                <p class="outer-txt01">医師</p>
+                                <p class="outer-ttl01">前川</p>
+                                <div class="outer-para01">
+                                    <p class="fz-b">専門分野</p>
+                                    <p>専門分野</p>
+                                </div>
+                                <div class="outer-para02">
+                                    <p class="fz-b">資格・略歴</p>
+                                    <div class="outer-para02-bl">
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="outer-flex-li-01">
+                            <div class="outer-flex-li-sty">
+                                <p class="outer-txt01">医師</p>
+                                <p class="outer-ttl01">二木</p>
+                                <div class="outer-para01">
+                                    <p class="fz-b">専門分野</p>
+                                    <p>専門分野</p>
+                                </div>
+                                <div class="outer-para02">
+                                    <p class="fz-b">資格・略歴</p>
+                                    <div class="outer-para02-bl">
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="outer-flex-li-01">
+                            <div class="outer-flex-li-sty">
+                                <p class="outer-txt01">医師</p>
+                                <p class="outer-ttl01">富永</p>
+                                <div class="outer-para01">
+                                    <p class="fz-b">専門分野</p>
+                                    <p>専門分野</p>
+                                </div>
+                                <div class="outer-para02">
+                                    <p class="fz-b">資格・略歴</p>
+                                    <div class="outer-para02-bl">
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="outer-flex-li-01">
+                            <div class="outer-flex-li-sty">
+                                <p class="outer-txt01">医師</p>
+                                <p class="outer-ttl01">廣田</p>
+                                <div class="outer-para01">
+                                    <p class="fz-b">専門分野</p>
+                                    <p>専門分野</p>
+                                </div>
+                                <div class="outer-para02">
+                                    <p class="fz-b">資格・略歴</p>
+                                    <div class="outer-para02-bl">
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                        <p><span>・</span>資格・略歴</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="outpatient bg-gray" id="gairai-sec05">
+    <div class="container">
+        <div class="m-w800 margin-sp">
+            <h2 class="h2-ttl h2-mb">外来について</h2>
+            <h3 class="gairai-procedure-ttl">初めて受診される患者さまへ</h3>
+            <p class="pb30">当院は予約制ではございませんので、<span class="font-blue">診療時間（9:00～12:00, 13:30～17:00）</span>に直接ご来院ください。</p>
+            <!-- <div class="gairai-com-btn gairai-btn-margin">
+                <a href="tel:0166-23-2090" class="gairai-btn-dec sp">電話をする</a>
+            </div>
+            <p class="pb30">※問診票を事前にダウンロードしていただき、記入して当日お持ちいただくと、診察までをスムーズに行うことができます。</p> -->
+            <?php $monshin_jizen = scf::get('monshin_jizen'); ?>
+            <?php if (!empty($monshin_jizen)) { ?>
+                <div class="gairai-com-btn gairai-btn-margin">
+                    <a href="<?php echo $monshin_jizen; ?>" class="gairai-btn-dec">問診票事前ダウンロードはこちら</a>
+                </div>
+            <?php } ?>
+            <h3 class="gairai-procedure-ttl">診察の流れ</h3>
+            <div class="examination-flow">
+                <ul class="exam-flow-flex">
+                    <!-- <li class="exam-flow-li">
+                        <div class="exam-flow-img">
+                            <span class="box-number">01</span>
+                            <img class="exam-flow-img-bdr" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/exam_flow_img_01.jpg" alt="" />
+                        </div>
+                        <div class="exam-flow-txt">
+                            <p>完全予約制のため、事前にご連絡ください。</p>
+                        </div>
+                    </li> -->
+                    <li class="exam-flow-li">
+                        <div class="exam-flow-img">
+                            <span class="box-number">01</span>
+                            <img class="exam-flow-img-bdr" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/exam_flow_img_02.jpg" alt="" />
+                        </div>
+                        <div class="exam-flow-txt">
+                            <p>保険証をお持ちの方は必ず提示してください。資格があっても確認が取れない場合は自費診療となります。</p>
+                        </div>
+                    </li>
+                    <li class="exam-flow-li">
+                        <div class="exam-flow-img">
+                            <span class="box-number">02</span>
+                            <img class="exam-flow-img-bdr" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/exam_flow_img_03.jpg" alt="" />
+                        </div>
+                        <div class="exam-flow-txt">
+                            <p>他の医療機関からの紹介状をお持ちの方は受付でご提示ください。</p>
+                        </div>
+                    </li>
+                    <li class="exam-flow-li">
+                        <div class="exam-flow-img">
+                            <span class="box-number">03</span>
+                            <img class="exam-flow-img-bdr" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/exam_flow_img_04.jpg" alt="" />
+                        </div>
+                        <div class="exam-flow-txt">
+                            <p>外来受付後、順番になりましたらお声がけします。※症状や診療内容により順番が前後する場合がございます。ご了承ください。</p>
+                        </div>
+                    </li>
+                    <li class="exam-flow-li">
+                        <div class="exam-flow-img">
+                            <span class="box-number">04</span>
+                            <img class="exam-flow-img-bdr" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/exam_flow_img_05.jpg" alt="" />
+                        </div>
+                        <div class="exam-flow-txt">
+                            <p>医師による診察を受けていただきます。</p>
+                        </div>
+                    </li>
+                    <li class="exam-flow-li">
+                        <div class="exam-flow-img">
+                            <span class="box-number">05</span>
+                            <img class="exam-flow-img-bdr" src="<?php bloginfo('template_directory'); ?>/assets/img/gairai/exam_flow_img_06.jpg" alt="" />
+                        </div>
+                        <div class="exam-flow-txt">
+                            <p>診察後、外来受付窓口にてお会計となります。なお、お薬は院内薬局にて処方しております。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <p class="hint-txt pc">※ お支払いは現金のみです。クレジットカードやQRコード決済はご利用になれません。</p>
+        </div>
+    </div>
+</section>
+
+<?php
+get_footer();
