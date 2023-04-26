@@ -21,7 +21,10 @@ get_header();
 
 <section class="contact-info">
     <div class="container">
-        <h2 class="h2-ttl h2-mb">禁煙外来について</h2>
+        <h2 class="h2-ttl h2-mb">お問い合わせ</h2>
+
+        <p>入院や診療、施設への入所、医療福祉相談についてなどお問い合わせ下さい。
+            早急に対応いたしますが、内容によっては、お時間をいただく場合もございますので、あらかじめご了承ください。</p>
     </div>
 </section>
 
