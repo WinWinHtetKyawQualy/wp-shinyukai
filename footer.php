@@ -279,7 +279,7 @@
                 </ul>
             </div>
             <div class="ftr-txt">
-                <p>Copyright Rumoi Memorial Hospital.</p>
+                <p>Copyright Shinyukai Hospital.</p>
             </div>
         </div>
     </div>
