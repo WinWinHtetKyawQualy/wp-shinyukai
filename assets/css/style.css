@@ -3613,7 +3613,8 @@ font-blue {
         font-size: 1.6rem;
     }
 
-    .gairai-sec05 .table-dec th, .table-dec td {
+    .gairai-sec05 .table-dec th,
+    .table-dec td {
         font-size: 1rem;
     }
 
@@ -4451,3 +4452,12 @@ div.sec-nav>a {
         max-width: calc(50% - 16px);
     }
 }
+
+
+
+/* contact page start */
+.contact-info {
+    padding: 6rem 0;
+}
+
+/*contact page end  */
