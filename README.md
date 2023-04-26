@@ -2,6 +2,17 @@
 
 ## Color
 ```
-pink light color: #fff5fa;
-pink dark color: #d7004e;
+--primary-color: #d7004e;
+--primary-pale: #fff5fb;
+```
+
+If you used light pink color
+```
+color: var(--primary-pale);
+background: var(--primary-pale);
+```
+If you used dark pink color
+```
+color: var(--primary-color);
+background: var(--primary-color);
 ```
