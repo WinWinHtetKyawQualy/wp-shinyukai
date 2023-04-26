@@ -7,6 +7,8 @@ p {
 :root {
     scroll-behavior: smooth;
     scroll-padding: 10px;
+    --primary-color: #d7004e;
+    --primary-pale: #fff5fa;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,7 +86,7 @@ Top Page
 }
 
 .info-block ul li a:hover p {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .in-sty {
@@ -159,7 +161,7 @@ News Section (Section-2)
 }
 
 .news-block-li a:hover .news-li-post {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .news-block-li a:hover::after {
@@ -233,7 +235,7 @@ News Section (Section-2)
     text-align: right;
     letter-spacing: .1rem;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .news-li-info-sp::after {
@@ -247,8 +249,8 @@ News Section (Section-2)
     content: "";
     transform: translateY(-40%) rotate(45deg);
 
-    /*border-top: 1px solid #2465fc; -->
-    border-right: 1px solid #2465fc;*/
+    /*border-top: 1px solid var(--primary-color); -->
+    border-right: 1px solid var(--primary-color);*/
 }
 
 .h2-ttl {
@@ -286,9 +288,9 @@ News Section (Section-2)
     padding: 15px 0;
     margin: 0 auto;
 
-    border: 1px solid #2465fc;
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
-    background: #2465fc;
+    background: var(--primary-color);
 }
 
 .top-com-btn a:hover {
@@ -296,7 +298,7 @@ News Section (Section-2)
 }
 
 .top-com-btn a:hover .btn-txt {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .top-com-btn .btn-txt {
@@ -393,7 +395,7 @@ News Section (Section-2)
 .staff-section {
     padding: 70px 0 80px;
 
-    background: #d9e4fe;
+    background: var(--primary-pale);
 }
 
 .staff-margin {
@@ -438,7 +440,7 @@ News Section (Section-2)
 }
 
 .staff-box:hover p {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 /* .staff-txt p:hover {
@@ -537,7 +539,7 @@ i.i {
 }
 
 .font-blue {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .text-left {
@@ -677,7 +679,7 @@ td {
     transform: translateZ(0);
 
     color: white;
-    background-color: #2465fc;
+    background-color: var(--primary-color);
 
     align-items: center;
     justify-content: center;
@@ -767,7 +769,7 @@ td {
 
         color: #fff;
         border-radius: 5px;
-        background-color: #2465fc;
+        background-color: var(--primary-color);
 
         justify-content: center;
     }
@@ -842,7 +844,7 @@ td {
         transform: bottom ease .3s;
         transform: translateZ(0);
 
-        border: 2px solid #2465fc;
+        border: 2px solid var(--primary-color);
         background: #fff;
 
         align-items: center;
@@ -1176,7 +1178,7 @@ td {
 }
 
 .post-li li a:hover {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 768px) {
@@ -1409,11 +1411,11 @@ td {
 }
 
 .result-li a:hover .post-ttl {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .result-li a:hover .post-txt {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .result-li a:hover::after {
@@ -1524,7 +1526,7 @@ td {
     font-weight: 500;
 
     color: #000;
-    border: 4px solid #d9e4fe;
+    border: 4px solid var(--primary-pale);
     border-radius: 10px;
 }
 
@@ -1689,9 +1691,9 @@ td {
     text-align: center;
 
     color: #fff;
-    border: 1px solid #2465fc;
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
-    background: #2465fc;
+    background: var(--primary-color);
 }
 
 .procedure-ttl {
@@ -1732,7 +1734,7 @@ td {
 .txt-b {
     font-size: 1.6rem;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .txt-n {
@@ -1748,7 +1750,7 @@ td {
 
     font-size: 1.6rem;
 
-    color: #2465fc;
+    color: var(--primary-color);
 
     font-weight: bold;
 }
@@ -2277,7 +2279,7 @@ td {
 }
 
 .text-blue {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .leading-2 {
@@ -2318,7 +2320,7 @@ i.chevron-right {
 
     font-size: 2rem;
 
-    border: 4px solid #d9e4fe;
+    border: 4px solid var(--primary-pale);
     border-radius: 10px;
     background: #f9f9f9;
 }
@@ -2791,7 +2793,7 @@ i.chevron-right {
 .dpt-tab.active a {
     position: relative;
 
-    background: #2465fc;
+    background: var(--primary-color);
 }
 
 .dpt-tab.active .arrow-dow {
@@ -2806,7 +2808,7 @@ i.chevron-right {
 
     border-width: 21.7px 12.5px 0 12.5px;
     border-style: solid;
-    border-color: #2465fc transparent transparent transparent;
+    border-color: var(--primary-color) transparent transparent transparent;
 }
 
 .dpt-tab-txt-block {
@@ -3079,11 +3081,11 @@ i.chevron-right {
 
     color: #fff;
     border-radius: 10px;
-    background: #2465fc;
+    background: var(--primary-color);
 }
 
 font-blue {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 @media screen and (max-width:768px) {
@@ -3297,7 +3299,7 @@ font-blue {
 
         color: #fff;
         border-radius: 20px;
-        background: #2465fc;
+        background: var(--primary-color);
     }
 
     /* end of temp */
@@ -3384,7 +3386,7 @@ font-blue {
 .outer-flex-li-sty {
     padding: 20px;
 
-    border: 4px solid #d9e4fe;
+    border: 4px solid var(--primary-pale);
     border-radius: 10px;
     background: #f9f9f9;
 }
@@ -3392,7 +3394,7 @@ font-blue {
 .outer-flex .outer-txt01 {
     font-size: 16px;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .outer-flex .outer-ttl01 {
@@ -3525,7 +3527,7 @@ font-blue {
 
     letter-spacing: 1.5px;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .exam-flow-img-bdr {
@@ -3751,7 +3753,7 @@ font-blue {
 }
 
 .text-blue {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .leading-2 {
@@ -3788,7 +3790,7 @@ i.chevron-right {
 
     font-size: 2rem;
 
-    border: 4px solid #d9e4fe;
+    border: 4px solid var(--primary-pale);
     border-radius: 10px;
 }
 
@@ -4070,12 +4072,12 @@ i.chevron-right {
 
     text-align: center;
 
-    border: 4px solid #d9e4fe;
+    border: 4px solid var(--primary-pale);
     background: #fff;
 }
 
 .recruit-info-gp .recruit-info-li li a:hover {
-    border: 4px solid #2465fc;
+    border: 4px solid var(--primary-color);
 }
 
 @media screen and (max-width: 768px) {
@@ -4184,7 +4186,7 @@ i.chevron-right {
     padding: 22px 22px 0 22px;
     margin-bottom: 20px;
 
-    border: 1px solid #d9e4fe;
+    border: 1px solid var(--primary-pale);
     border-radius: 10px;
 }
 
@@ -4200,7 +4202,7 @@ i.chevron-right {
 }
 
 .sitemap-section .column-ul li a:hover {
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .sitemap-section .left-bdr-1::before,
@@ -4430,7 +4432,7 @@ div.sec-nav>a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #2465fc;
+    color: var(--primary-color);
     font-weight: 500;
     /* width: max(146px, 15%); */
     width: 31.2%;

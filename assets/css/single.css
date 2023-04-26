@@ -58,7 +58,7 @@
 
     content: "";
 
-    border-left: 8px solid #2465fc;
+    border-left: 8px solid var(--primary-color);
 }
 
 .sin-post h3 {
@@ -69,7 +69,7 @@
     font-size: 1.8rem;
     line-height: 1.5;
 
-    color: #2465fc;
+    color: var(--primary-color);
     background: #fff;
 }
 
@@ -82,7 +82,7 @@
 
     content: "";
 
-    border-left: 8px solid #2465fc;
+    border-left: 8px solid var(--primary-color);
 }
 
 .sin-post h4 {
@@ -105,7 +105,7 @@
     content: "";
 
     border-radius: 4px;
-    background: #2465fc;
+    background: var(--primary-color);
 }
 
 .sin-post h5 {
@@ -160,7 +160,7 @@
     content: "";
 
     border-radius: 50%;
-    background: #2465fc;
+    background: var(--primary-color);
 }
 
 .sin-post ol {
@@ -196,7 +196,7 @@
 
     text-decoration: underline;
 
-    color: #2465fc;
+    color: var(--primary-color);
 
     text-underline-offset: 2px;
 }
@@ -222,7 +222,7 @@
 
     font-weight: bold;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .post-btn a {
@@ -236,13 +236,13 @@
     text-decoration: none;
 
     color: #fff;
-    border: 1px solid #2465fc;
+    border: 1px solid var(--primary-color);
     border-radius: 5px;
-    background: #2465fc;
+    background: var(--primary-color);
 }
 
 .post-btn a:hover {
-    color: #2465fc;
+    color: var(--primary-color);
     background: #fff;
 }
 
@@ -535,14 +535,14 @@
 .sin-post .po-date-sns {
     padding-bottom: 75px;
 
-    border-bottom: 2px solid #2465fc;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .sin-post .po-date-txt {
     font-size: 1.6rem;
     font-weight: 600;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 .sin-post .fl-lt {
@@ -571,7 +571,7 @@
     font-size: 1.4rem;
     font-weight: 600;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 
@@ -596,7 +596,7 @@
             transition: background-color .3s;
     text-decoration: none;
 
-    border: 2px solid #2465fc;
+    border: 2px solid var(--primary-color);
     border-radius: 10px;
     background: #fff;
 }
@@ -681,7 +681,7 @@
 .m-color {
     font-size: 1.8rem;
 
-    color: #2465fc;
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 768px) {
