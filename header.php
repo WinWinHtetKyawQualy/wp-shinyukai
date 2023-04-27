@@ -97,30 +97,6 @@
                                     <span class="hover-eff">部門紹介</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="<?php echo home_url() . '/kenshin-zaitaku'; ?>">
-                                    <div class="nav-img3">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img-newinsert.png" alt="健康診断・在宅医療" />
-                                    </div>
-                                    <span class="hover-eff">健康診断・在宅医療</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php echo home_url() . '/about'; ?>">
-                                    <div class="nav-img4">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img4.png" alt="病院紹" />
-                                    </div>
-                                    <span class="hover-eff">病院紹介</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php echo home_url() . '/recruit'; ?>">
-                                    <div class="nav-img5">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img5.png" alt="採用情報" />
-                                    </div>
-                                    <span class="hover-eff">採用情報</span>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
