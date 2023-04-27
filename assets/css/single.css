@@ -46,7 +46,7 @@
     line-height: 1.5;
 
     color: #000;
-    background: #e7eefe;
+    background: var(--primary-pale);
 }
 
 .sin-post h2:before {
@@ -675,7 +675,7 @@
 .front-arr {
     font-size: 1.6rem;
 
-    color: #6190fd;
+    color: var(--primary-color);
 }
 
 .m-color {
