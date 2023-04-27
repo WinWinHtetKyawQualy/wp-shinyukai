@@ -4221,7 +4221,7 @@ i.chevron-right {
 }
 
 .sitemap-section .left-bdr-1::before {
-    background-color: #88acff;
+    background-color: var(--primary-color);
 }
 
 .sitemap-section .left-bdr-2::before {

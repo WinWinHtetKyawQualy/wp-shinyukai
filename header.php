@@ -82,19 +82,19 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo home_url() . '/nyuuin'; ?>">
+                                <a href="<?php echo home_url() . '/info'; ?>">
                                     <div class="nav-img2">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img2.png" alt="入院のご案内" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img2.png" alt="施設のご案内" />
                                     </div>
-                                    <span class="hover-eff">入院のご案内</span>
+                                    <span class="hover-eff">施設のご案内</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo home_url() . '/department'; ?>">
+                                <a href="<?php echo home_url() . '/recruit'; ?>">
                                     <div class="nav-img3">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img3.png" alt="部門紹介" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img3.png" alt="採用情報" />
                                     </div>
-                                    <span class="hover-eff">部門紹介</span>
+                                    <span class="hover-eff">採用情報</span>
                                 </a>
                             </li>
                         </ul>
