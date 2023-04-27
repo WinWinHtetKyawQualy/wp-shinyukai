@@ -17,40 +17,231 @@ get_header();
         </div>
     </div>
 </section>
-
-<section class="page-anchor mt80 mt0-sp mb90 mb40-sp pt40-sp">
-    <div class="container m-w800">
-        <ul class="anchor-list">
-            <li>
-                <a class="goto" href="#recruitment-information-graduates">
-                    <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/recruit/item-1.png" alt="募集職種のご案内" /></div>
-                        <p class="goto-description">高卒新卒向け採用情報</p>
-                    </div>
-                </a>
-            </li>
-
-            <li>
-                <a class="goto" href="#about-recruitment">
-                    <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/recruit/item-2.png" alt="職員募集について" /></div>
-                        <p class="goto-description">採用情報</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a class="goto" href="#recruitment-information-list">
-                    <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/recruit/item-3.png" alt="採用情報" /></div>
-                        <p class="goto-description">採用情報一覧</p>
-                    </div>
-                </a>
-            </li>
-
-        </ul>
+<section id="about-recruitment" class="item02-sec" style="margin-bottom:40px;">
+    <div class=" container m-w800">
+        <h2 class="h2-ttl h2-mb" id="recruit">採用情報</h2>
+        <table class="table-dec">
+            <tbody>
+                <tr class="table-tr">
+                    <th class="table-th" style="width:16.66%"></th>
+                    <th class="table-th" style="width:16.66%">留萌記念病院</th>
+                    <th class="table-th" style="width:16.66%">野口病院</th>
+                    <th class="table-th" style="width:16.66%">中江病院</th>
+                    <th class="table-th" style="width:16.66%">加藤病院</th>
+                    <th class="table-th" style="width:16.66%">季実の杜</th>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">医師（常勤）</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">医師（非常勤）</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">看護師</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">准看護師</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">デイケア 看護師</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">夜勤専従 看護師</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">薬剤師</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">理学療法士</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">作業療法士</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">リハビリ助手</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">診療放射線技師</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">臨床検査技師</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">看護補助者<br>介護職員</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">看護補助者<br>パート</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">介護福祉士</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">訪問介護員</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">介護支援専門員</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">社会福祉士</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">精神保健福祉士</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">生活相談員</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">管理栄養士</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">医事課事務</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">病棟クラーク</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">外来クラーク</th>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">調理員・調理補助</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+                <tr class="table-tr">
+                    <th class="table-th single-th">高卒新卒者向け</th>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#">募集中</a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                    <td class="table-td"><a href="#"></a></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </section>
-
 
 <?php
 get_footer();

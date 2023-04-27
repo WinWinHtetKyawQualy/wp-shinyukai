@@ -3231,6 +3231,15 @@ font-blue {
     letter-spacing: .32px;
 }
 
+table a{
+    display: inline;
+    color: var(--primary-color);
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
 .table-tr {
     border-bottom: none;
 }
@@ -3238,8 +3247,8 @@ font-blue {
 .table-th {
     padding: 12px 0;
 
-    border: 1px solid #efede9;
-    background-color: #a7c1fe;
+    border: 1px solid #ccc;
+    background-color: #FDE;
 }
 
 .table-tr .table-th:first-child {
@@ -3255,15 +3264,15 @@ font-blue {
 }
 
 .single-th {
-    border: 1px solid #efede9;
-    background-color: #a7c1fe;
+    border: 1px solid #ccc;
+    background-color: #FDE;
 }
 
 .table-td {
     padding: 12px 0;
 
-    border: 1px solid #fbfbf9;
-    background-color: #FDE;
+    border: 1px solid #ccc;
+    background-color: #fff;
 }
 
 
@@ -3879,7 +3888,7 @@ i.chevron-right {
 
 .recruit-info-table th {
     border-right: 2px solid #fff;
-    background: #a7c1fe;
+    background: #FDE;
 }
 
 .recruit-info-table tr {
