@@ -51,8 +51,8 @@ get_header();
             <h2 class="h2-ttl" id="basic-principle">
                 <span>基本理念</span>
             </h2>
-            <div class="principle-block">
-                <ul class="shinyukai">
+            <div class="principle-block shinyukai">
+                <ul>
                     <li>患者様中心の医療を実践し、心のこもったケアをいたします。</li>
                     <li>安全と信頼の医療を提供し、地域医療の充実に努めます。</li>
                     <li>積極的に学び、知識と技術の向上にむけて努力いたします。</li>
