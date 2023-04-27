@@ -1790,7 +1790,7 @@ td {
     font-weight: 400;
 
     border-radius: 10px;
-    background: #e9efff;
+    background: #FDE;
 }
 
 .pro-sub-block li {
@@ -1849,7 +1849,7 @@ td {
     border-bottom: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #e9efff;
+    background-color: #FDE;
 }
 
 .time-block p {
@@ -2081,7 +2081,7 @@ td {
 }
 
 .tvset-table02 .table-block tr th {
-    background: #e9efff;
+    background: #FDE;
 }
 
 .tvset-table02 .table-block tr th:nth-child(1) {
@@ -2131,7 +2131,7 @@ td {
 }
 
 .tvset-table03 .table-block tr th {
-    background: #e9efff;
+    background: #FDE;
 }
 
 .tvset-table03 .table-block tr th:nth-child(1) {
@@ -2174,7 +2174,7 @@ td {
 }
 
 .tvset-table04 .table-block tr th {
-    background: #e9efff;
+    background: #FDE;
 }
 
 .tvset-table04 .table-block tr th:nth-child(1) {
@@ -3263,7 +3263,7 @@ font-blue {
     padding: 12px 0;
 
     border: 1px solid #fbfbf9;
-    background-color: #e9efff;
+    background-color: #FDE;
 }
 
 
@@ -3505,12 +3505,12 @@ font-blue {
     margin: 25px 2.5%;
 
     border-radius: 10px;
-    background-color: #e9efff;
+    background-color: #FDE;
 }
 
 .exam-flow-block {
     border-radius: 10px;
-    background-color: #e9efff;
+    background-color: #FDE;
 }
 
 .exam-flow-img {
@@ -3888,7 +3888,7 @@ i.chevron-right {
 
 .recruit-info-table td {
     border-right: 2px solid #fff;
-    background: #e9efff;
+    background: #FDE;
 }
 
 @media screen and (max-width: 768px) {
@@ -3999,7 +3999,7 @@ i.chevron-right {
 .emp-info-table td:first-child {
     width: 150px;
 
-    background: #e9efff;
+    background: #FDE;
 }
 
 .emp-info-table.td-no-bg td,
@@ -4009,7 +4009,7 @@ i.chevron-right {
 
 .emp-info-table th {
     width: 50px;
-    background: #e9efff;
+    background: #FDE;
     padding: 12px 15px;
     line-height: 1.9;
     text-align: center;
