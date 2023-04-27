@@ -74,11 +74,11 @@
                     <div class="nav-list">
                         <ul>
                             <li>
-                                <a href="<?php echo home_url() . '/gairai'; ?>">
+                                <a href="<?php echo home_url() . '/about'; ?>">
                                     <div class="nav-img1">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img1.png" alt="外来のご案内" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/nav-img1.png" alt="心優会について" />
                                     </div>
-                                    <span class="hover-eff">外来のご案内</span>
+                                    <span class="hover-eff">心優会について</span>
                                 </a>
                             </li>
                             <li>
@@ -121,12 +121,12 @@
                             </li>
                             <li class="sp-menu-toggle menu-on">
                                 <div class="menu-list">
-                                    <p>外来のご案内</p>
+                                    <p>心優会について</p>
                                     <span class="arr-icon"></span>
                                 </div>
                                 <div class="menu-sub-list">
                                     <ul class="subnav-box">
-                                        <li><a href="<?php echo home_url() . '/gairai'; ?>">外来のご案内</a></li>
+                                        <li><a href="<?php echo home_url() . '/about'; ?>">心優会について</a></li>
                                         <li><a href="<?php echo home_url() . '/gairai#gairai-sec02'; ?>">診療時間</a></li>
                                         <li><a href="<?php echo home_url() . '/gairai#gairai-sec03'; ?>">外来担当医表</a></li>
                                         <li><a href="<?php echo home_url() . '/gairai#gairai-sec04'; ?>">外来担当医のご紹介</a></li>
