@@ -60,17 +60,30 @@ get_header();
             </div>
         </div>
 
-        <div>
-
-            <div class="procedure-block">
-                <h3 class="procedure-ttl mt30 mt15-sp">５．問い合わせの窓口</h3>
-                <div></div>
+        <div class="procedure-block">
+            <h3 class="procedure-ttl mt30 mt15-sp">５．問い合わせの窓口</h3>
+            <div class="procedure-sec">
+                当法人の個人情報保護方針に関してのご質問や患者様ならびに利用者様の個人情報のお問い合わせ、苦情等は担当窓口にてお受けいたします。
             </div>
-
-
-
-
         </div>
+
+        <div class="procedure-block">
+            <h3 class="procedure-ttl mt30 mt15-sp">６．法令の遵守と個人情報保護の仕組みの改善</h3>
+            <div class="procedure-sec">
+                当法人は、個人情報の保護に関する日本の法令、その他の規範を遵守するとともに、上記の各項目の見直しを適宜行い、個人情報保護の仕組みの継続的な改善を図ります。
+            </div>
+        </div>
+
+        <p>
+            令和　3年　6月　15日
+            医療法人社団心優会
+            理事長 三輪　英則
+        </p>
+
+
+
+
+    </div>
 </section>
 
 

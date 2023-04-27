@@ -1,6 +1,7 @@
 # Shinyukai「医療法人社団 心優会」
 
 ## Color
+
 ```
 --primary-color: #d7004e;
 --primary-pale: #fff5fb;
@@ -9,13 +10,15 @@ h2:aftrer_color: #e09ab6;
 ```
 
 If you used light pink color
+
 ```
 color: var(--primary-pale);
 background: var(--primary-pale);
 ```
+
 If you used dark pink color
+
 ```
 color: var(--primary-color);
 background: var(--primary-color);
 ```
-

@@ -1339,8 +1339,7 @@ i.chevron-right {
 .shinyukai ul li::before {
   content: "";
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 12px;
   left: 6px;
   width: 6px;
   height: 6px;
