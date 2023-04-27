@@ -4455,4 +4455,30 @@ div.sec-nav>a {
     padding: 6rem 0;
 }
 
+
+.contact-info table {
+    border-collapse: collapse;
+    margin: 30px 0;
+  }
+
+  .contact-info tr {
+    font-size: 1.8rem;
+    line-height: 25px;
+    border-bottom: 1px solid #d8d3c7;
+
+  }
+  
+  .contact-info table th{
+    padding: 5px;
+    border: #a6a6a6 1px solid;
+    text-align: center;
+    background-color: var(--primary-pale);
+    font-weight: 500;
+  }
+  
+  .contact-info table td{
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+  }
+
 /*contact page end  */

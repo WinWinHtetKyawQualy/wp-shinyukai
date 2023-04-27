@@ -1346,4 +1346,11 @@ i.chevron-right {
   border-radius: 50%;
   background: var(--primary-color);
 }
+
+.txt-right{
+  text-align: right;
+}
 /*for dot in shinyuklai*/
+
+
+
