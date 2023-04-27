@@ -31,12 +31,12 @@
                         <h1 class="header-logo">
                             <a href="<?php echo home_url(); ?>">
                                 <div class="h-logo-img">
-                                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/logo.png" alt="留萌記念病院" />
+                                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/logo.png" alt="医療法人社団 心優会" />
                                 </div>
-                                <p>医療法人社団 心優会<span>留萌記念病院</span></p>
+                                <p><span>医療法人社団 心優会</span></p>
                             </a>
                         </h1>
-                        <div class="phone-btn sp"><a href="tel:0166232090">お電話</a></div>
+                        <div class="phone-btn sp"><a href="tel:0164420271">お電話</a></div>
                         <div class="pc">
                             <div class="nav">
                                 <div class="size-button btn-active">
