@@ -1326,3 +1326,24 @@ i.chevron-right {
     padding: 45px 0 20px;
   }
 }
+
+/*for dot in shinyuklai*/
+
+.shinyukai ul li{
+  position: relative;
+  padding-left: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.shinyukai ul li::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--primary-color);
+}
+/*for dot in shinyuklai*/
