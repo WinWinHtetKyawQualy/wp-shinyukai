@@ -12,66 +12,52 @@ get_header();
             <?php echo the_breadcrumb(); ?>
         </div>
         <div class="sub-mv">
-            <h2 class="sub-mv-ttl">病院紹介</h2>
-            <span class="sub-mv-txt">Hospital Information</span>
+            <h2 class="sub-mv-ttl">心優会について</h2>
+            <span class="sub-mv-txt">About</span>
         </div>
     </div>
 </section>
-<section class="page-anchor pt80 pb100 pt60-sp pb60-sp">
-    <!-- TODO section with many buttons will go here -->
-    <div class="container m-w800">
-        <ul class="anchor-list">
-            <li>
-                <a class="goto" href="#greeting-section">
-                    <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item01.png" alt="院長挨拶" /></div>
-                        <p class="goto-description">院長　あいさつ</p>
-                    </div>
-                </a>
-            </li>
-
-            <li>
-                <a class="goto" href="#overview-section">
-                    <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item02.png" alt="病院概要・沿革" /></div>
-                        <p class="goto-description">病院概要・沿革</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a class="goto" href="#traffic-section">
-                    <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item03.png" alt="交通アクセス" /></div>
-                        <p class="goto-description">交通アクセス</p>
-                    </div>
-                </a>
-            </li>
-
-            <li>
-                <a class="goto" href="#floor-section">
-                    <div class="goto-left-side">
-                        <div class="goto-icon"><img class="inline-block" src="<?php bloginfo('template_directory'); ?>/assets/img/abouts/item04.png" alt="フロアガイド" /></div>
-                        <p class="goto-description">フロアガイド</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
+<section class="page-anchor mb90 mb50-sp mt60-sp dpt-right-tab pt50-sp">
+        <!-- TODO section with many buttons will go here -->
+        <div class="container m-w800 pt-80">
+            <ul class="anchor-list">
+                <li>
+                    <a class="goto" href="#item01-sec">
+                        <div class="goto-left-side">
+                            <p class="goto-description">理事長あいさつ</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="goto" href="#item02-sec">
+                        <div class="goto-left-side">
+                            <p class="goto-description">基本理念</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="goto" href="#item02-sec">
+                        <div class="goto-left-side">
+                            <p class="goto-description">法人沿革</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
 </section>
-<section class="greeting-section bg-gray">
+<section class="basic-principle-sec bg-gray">
     <div class="container">
         <div class="abouts">
-            <h2 class="h2-ttl" id="greeting-section">
-                <span> 院長　あいさつ </span>
+            <h2 class="h2-ttl" id="basic-principle">
+                <span>基本理念</span>
             </h2>
-            <div class="greeting-block">
-                <p class="greeting-pg">
-                    高齢者の方の多くの望みは、住み慣れた街や場所で、関わりを持ってきた親しい人たちと最後まで生活したいという思いです。自然な思いを実現するために当院はそのニーズに応えて参りたいと思います。<br>
-                    当院は、長期に療養生活を行う方々の為の療養型病院です。そのため病院が治療の場であることに加えて、生活の場としての役割も重要となります。病院で暮らすという事を大前提に捉え、患者様の入院生活の質の向上に努めてまいります。スタッフ全員が大家族となって高齢者のお世話に特化した経験と技術を活かし、患者様を私たちの家族と想い接してゆきます。
-                    また医療・介護・福祉の連携によって、地域と人に着目した切れ目のない環境を構築いたします。
-
-                </p>
-                <p class="greeting-name">院長　三輪　英則</p>
+            <div class="principle-block shinyukai">
+                <ul>
+                    <li>患者様中心の医療を実践し、心のこもったケアをいたします。</li>
+                    <li>安全と信頼の医療を提供し、地域医療の充実に努めます。</li>
+                    <li>積極的に学び、知識と技術の向上にむけて努力いたします。</li>
+                    <li>職員が夢とやりがいを持てる職場づくりをめざします。</li>
+                </ul>
             </div>
         </div>
     </div>

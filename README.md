@@ -6,6 +6,7 @@
 --primary-color: #d7004e;
 --primary-pale: #fff5fb;
 table-th_color: #FDE;
+h2:aftrer_color: #e09ab6;
 ```
 
 If you used light pink color
