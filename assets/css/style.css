@@ -4008,7 +4008,7 @@ i.chevron-right {
 }
 
 .emp-info-table th {
-    width: 50px;
+    width: 22%;
     background: #FDE;
     padding: 12px 15px;
     line-height: 1.9;
@@ -4107,6 +4107,10 @@ i.chevron-right {
 
     .emp-info-table td {
         padding: 12px 5px;
+    }
+
+    .emp-info-table th {
+        width: 32%;
     }
 }
 
