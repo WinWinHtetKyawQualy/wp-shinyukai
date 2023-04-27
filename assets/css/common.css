@@ -361,7 +361,7 @@ body {
   transform: scale(0, 1);
   transform-origin: center top;
 
-  background: #88acff;
+  background: #e09ab6;
 }
 
 .nav-list ul li a.current .hover-eff::after,
