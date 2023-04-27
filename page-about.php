@@ -45,14 +45,14 @@ get_header();
             </ul>
         </div>
 </section>
-<section class="basic-principle-sec bg-gray">
+<section class="basic-principle-sec bg-gray pt70 pb70 pt30-sp pb30-sp">
     <div class="container">
         <div class="abouts">
             <h2 class="h2-ttl" id="basic-principle">
                 <span>基本理念</span>
             </h2>
             <div class="principle-block shinyukai">
-                <ul>
+                <ul class="mt35">
                     <li>患者様中心の医療を実践し、心のこもったケアをいたします。</li>
                     <li>安全と信頼の医療を提供し、地域医療の充実に努めます。</li>
                     <li>積極的に学び、知識と技術の向上にむけて努力いたします。</li>
