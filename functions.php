@@ -1,4 +1,5 @@
 <?php
+
 /**
  * numazaki functions and definitions
  *
@@ -7,9 +8,9 @@
  * @package numazaki
  */
 
-if ( ! defined( '_S_VERSION' ) ) {
+if (!defined('_S_VERSION')) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define('_S_VERSION', '1.0.0');
 }
 
 /**
@@ -19,17 +20,18 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function numazaki_setup() {
+function numazaki_setup()
+{
 	/*
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
 		* If you're building a theme based on numazaki, use a find and replace
 		* to change 'numazaki' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'numazaki', get_template_directory() . '/languages' );
+	load_theme_textdomain('numazaki', get_template_directory() . '/languages');
 
 	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
+	add_theme_support('automatic-feed-links');
 
 	/*
 		* Let WordPress manage the document title.
@@ -37,19 +39,19 @@ function numazaki_setup() {
 		* hard-coded <title> tag in the document head, and expect WordPress to
 		* provide it for us.
 		*/
-	add_theme_support( 'title-tag' );
+	add_theme_support('title-tag');
 
 	/*
 		* Enable support for Post Thumbnails on posts and pages.
 		*
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
-	add_theme_support( 'post-thumbnails' );
+	add_theme_support('post-thumbnails');
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'numazaki' ),
+			'menu-1' => esc_html__('Primary', 'numazaki'),
 		)
 	);
 
@@ -83,7 +85,7 @@ function numazaki_setup() {
 	);
 
 	// Add theme support for selective refresh for widgets.
-	add_theme_support( 'customize-selective-refresh-widgets' );
+	add_theme_support('customize-selective-refresh-widgets');
 
 	/**
 	 * Add support for core custom logo.
@@ -100,7 +102,7 @@ function numazaki_setup() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'numazaki_setup' );
+add_action('after_setup_theme', 'numazaki_setup');
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -109,22 +111,24 @@ add_action( 'after_setup_theme', 'numazaki_setup' );
  *
  * @global int $content_width
  */
-function numazaki_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'numazaki_content_width', 640 );
+function numazaki_content_width()
+{
+	$GLOBALS['content_width'] = apply_filters('numazaki_content_width', 640);
 }
-add_action( 'after_setup_theme', 'numazaki_content_width', 0 );
+add_action('after_setup_theme', 'numazaki_content_width', 0);
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function numazaki_widgets_init() {
+function numazaki_widgets_init()
+{
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'numazaki' ),
+			'name'          => esc_html__('Sidebar', 'numazaki'),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'numazaki' ),
+			'description'   => esc_html__('Add widgets here.', 'numazaki'),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -132,24 +136,25 @@ function numazaki_widgets_init() {
 		)
 	);
 }
-add_action( 'widgets_init', 'numazaki_widgets_init' );
+add_action('widgets_init', 'numazaki_widgets_init');
 
 /**
  * Enqueue scripts and styles.
  */
-function numazaki_scripts() {
-	wp_enqueue_style('import-css', get_template_directory_uri().'/assets/css/import.css');
-	wp_enqueue_style('style-css', get_template_directory_uri().'/assets/css/style.css');
-	wp_enqueue_style('single-css', get_template_directory_uri().'/assets/css/single.css');
+function numazaki_scripts()
+{
+	wp_enqueue_style('import-css', get_template_directory_uri() . '/assets/css/import.css');
+	wp_enqueue_style('style-css', get_template_directory_uri() . '/assets/css/style.css');
+	wp_enqueue_style('single-css', get_template_directory_uri() . '/assets/css/single.css');
 
-	wp_enqueue_script('script', get_template_directory_uri().'/assets/js/jquery-3.4.1.min.js', array('jquery'), '', true);
-	wp_enqueue_script('html5shiv-script', get_template_directory_uri().'/assets/js/html5shiv.js', array('jquery'), '', true);
+	wp_enqueue_script('script', get_template_directory_uri() . '/assets/js/jquery-3.4.1.min.js', array('jquery'), '', true);
+	wp_enqueue_script('html5shiv-script', get_template_directory_uri() . '/assets/js/html5shiv.js', array('jquery'), '', true);
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
+	if (is_singular() && comments_open() && get_option('thread_comments')) {
+		wp_enqueue_script('comment-reply');
 	}
 }
-add_action( 'wp_enqueue_scripts', 'numazaki_scripts' );
+add_action('wp_enqueue_scripts', 'numazaki_scripts');
 
 /**
  * Implement the Custom Header feature.
@@ -174,12 +179,13 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * Load Jetpack compatibility file.
  */
-if ( defined( 'JETPACK__VERSION' ) ) {
+if (defined('JETPACK__VERSION')) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
 /* Template URL */
-function template_uri() {
+function template_uri()
+{
 	return get_template_directory_uri();
 }
 
@@ -188,41 +194,46 @@ add_shortcode("template_uri", "template_uri");
 /**
  * Load  breadcrumb Upload file.
  */
-require get_template_directory().'/inc/breadcrumb.php';
+require get_template_directory() . '/inc/breadcrumb.php';
 
 /************************************************************
  * How to Change the Excerpt Length?
-*************************************************************/
-function custom_trim_excerpt( $text = '' ){
-    $text = strip_shortcodes( $text );
+ *************************************************************/
+function custom_trim_excerpt($text = '')
+{
+	$text = strip_shortcodes($text);
 
-    $text = apply_filters('the_content', $text);
-    $excerpt_length = apply_filters('excerpt_length', 40);
-    $excerpt_more = apply_filters('excerpt_more', ' ' . '...');
-    $text = wp_trim_words( $text, $excerpt_length, $excerpt_more );
+	$text = apply_filters('the_content', $text);
+	$excerpt_length = apply_filters('excerpt_length', 40);
+	$excerpt_more = apply_filters('excerpt_more', ' ' . '...');
+	$text = wp_trim_words($text, $excerpt_length, $excerpt_more);
 
-    return $text;
+	return $text;
 }
 
 /* archive link with count */
-function wpdocs_archive_count_span( $links ) {
-	$links = str_replace( '</a>&nbsp;(', '<span class="count">（', $links );
-	$links = str_replace( ')', '）</span></a>', $links );
+function wpdocs_archive_count_span($links)
+{
+	$links = str_replace('</a>&nbsp;(', '<span class="count">（', $links);
+	$links = str_replace(')', '）</span></a>', $links);
 	return $links;
 }
-add_filter( 'get_archives_link', 'wpdocs_archive_count_span' );
+add_filter('get_archives_link', 'wpdocs_archive_count_span');
 
 
 /*404エラー*/
-function adjust_category_paged( $query = []) {
-  if (isset($query['name'])
-   && $query['name'] === 'page'
-   && isset($query['page'])
-   && isset($query['category_name'])) {
-    $query['paged'] = intval($query['page']); // 念のため整数化しておく
-    unset($query['name']);
-    unset($query['page']);
-  }
-  return $query;
+function adjust_category_paged($query = [])
+{
+	if (
+		isset($query['name'])
+		&& $query['name'] === 'page'
+		&& isset($query['page'])
+		&& isset($query['category_name'])
+	) {
+		$query['paged'] = intval($query['page']); // 念のため整数化しておく
+		unset($query['name']);
+		unset($query['page']);
+	}
+	return $query;
 }
 add_filter('request', 'adjust_category_paged');

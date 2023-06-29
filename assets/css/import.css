@@ -1,5 +1,7 @@
 @charset "utf-8";
 @import url("reset.css");
-@import url("common.css");
-@import url("font.css");
+@import url("layout.css");
 @import url("margin-padding.css");
+@import url("font.css");
+@import url("common.css");
+@import url("style.css");

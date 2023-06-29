@@ -74,18 +74,18 @@ time,
 mark,
 audio,
 video {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 
-    vertical-align: baseline;
+  vertical-align: baseline;
 
-    border: 0;
-    outline: 0;
-    background: transparent;
+  border: 0;
+  outline: 0;
+  background: transparent;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 article,
@@ -99,152 +99,152 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: "";
-    content: none;
+  content: "";
+  content: none;
 }
 
 a {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 
-    font-size: 100%;
+  font-size: 100%;
 
-    vertical-align: baseline;
+  vertical-align: baseline;
 
-    background: transparent;
+  background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-    text-decoration: none;
+  text-decoration: none;
 
-    color: #000;
-    background-color: #ff9;
+  color: #000;
+  background-color: #ff9;
 }
 
 /* change colours to suit your needs */
 mark {
-    font-style: italic;
-    font-weight: bold;
+  font-style: italic;
+  font-weight: bold;
 
-    color: #000;
-    background-color: #ff9;
+  color: #000;
+  background-color: #ff9;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 abbr[title],
 dfn[title] {
-    cursor: help;
+  cursor: help;
 
-    border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
 table {
-    border-spacing: 0;
-    border-collapse: collapse;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display: block;
-    height: 1px;
-    padding: 0;
-    margin: 1em 0;
+  display: block;
+  height: 1px;
+  padding: 0;
+  margin: 1em 0;
 
-    border: 0;
-    border-top: 1px solid #ccc;
+  border: 0;
+  border-top: 1px solid #ccc;
 }
 
 input,
 select {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /* ===============================
 Add css
 =============================== */
 a {
-    display: block;
+  display: block;
 
-    cursor: pointer;
-    text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
 
-    color: #000;
+  color: inherit;
 }
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
-    -webkit-transition: all .2s ease;
-       -moz-transition: all .2s ease;
-        -ms-transition: all .2s ease;
-         -o-transition: all .2s ease;
-            transition: all .2s ease;
-    text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-decoration: none;
 
-    opacity: .90;
+  opacity: 0.9;
 }
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover img {
-         opacity: .70;
+  opacity: 0.9;
 
-    filter: alpha(opacity=70);
-    -moz-opacity: .70;
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
 }
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .clear {
-    clear: both !important;
+  clear: both !important;
 }
 .cFix {
-    zoom: 1;
+  zoom: 1;
 }
 .cFix:after {
-    display: block;
-    visibility: hidden;
-    height: 0;
-    clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
 
-    line-height: 0;
+  line-height: 0;
 
-    content: ".";
+  content: ".";
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 img {
-    display: block;
-    height: auto;
-    max-width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 
-    vertical-align: middle;
+  vertical-align: middle;
 }

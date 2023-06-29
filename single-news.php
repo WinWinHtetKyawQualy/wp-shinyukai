@@ -11,17 +11,7 @@
 get_header();
 
 ?>
-<section class="sub-mv-section sub-bg">
-    <div class="container">
-        <div class="pc">
-            <?php echo the_breadcrumb(); ?>
-        </div>
-        <div class="sub-mv">
-            <h2 class="sub-mv-ttl">お知らせ</h2>
-            <span class="sub-mv-txt">News</span>
-        </div>
-    </div>
-</section>
+
 <section class="detail-sec">
     <div class="container">
         <div class="detail-main cFix">
@@ -56,9 +46,6 @@ get_header();
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="right-side">
-                <?php get_sidebar() ?>
             </div>
         </div>
     </div>

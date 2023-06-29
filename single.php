@@ -11,18 +11,7 @@
 get_header();
 
 ?>
-<section class="sub-mv-section sub-bg">
-    <div class="container">
-        <div class="pc">
-            <?php echo the_breadcrumb(); ?>
-        </div>
-        <div class="sub-mv">
-            <h2 class="sub-mv-ttl">お知らせ</h2>
-            <span class="sub-mv-txt">News</span>
-        </div>
-    </div>
-</section>
-<section class="detail-sec">
+<section class="detail-sec bg-gray">
     <div class="container">
         <div class="detail-main cFix">
             <div class="main">
@@ -45,20 +34,15 @@ get_header();
                     </div>
                 </div>
                 <div class="front-page">
-                    <ul class="col-gp ali-center">
+                    <ul>
                         <li>
-                            <a href="<?php echo home_url() . '/new'; ?>" class="arr-pos">
-                                <span class="front-arr">＜</span>
+                            <a href="<?php echo home_url() . '/blog'; ?>" class="col-gp ali-center">
+                                <span class="front-arr arr-pos">＜</span>
+                                <span class="m-color pl10">一覧に戻る</span>
                             </a>
-                        </li>
-                        <li class="pl10">
-                            <span class="m-color">一覧に戻る</span>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="right-side">
-                <?php get_sidebar() ?>
             </div>
         </div>
     </div>
